@@ -523,7 +523,7 @@ body {
     }
     #cloud7 {
         z-index: -10;
-        top: 350vh;
+        top: 339vh;
         margin: 10px;
         animation: oddclouds 35s linear 0s infinite;
     }
@@ -658,6 +658,7 @@ body {
     #cloud6,
     #cloud7 {
         width: 50vw;
+        Overflow-x: hidden;
     }  
     #cloud7 {
     top: 339vh;
