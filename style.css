@@ -139,7 +139,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    background-image: url(/img/where_togo.png);
+    background-image: url(img/where_togo.png);
     filter: brightness(85%);
     background-size: cover;
     background-position: left;
@@ -275,14 +275,14 @@ body {
 }
 
 #offer1 {
-    background-image: url(/img/goa_flop.jpg);
+    background-image: url(img/goa_flop.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #offer2 {
-    background-image: url(/img/friends.jpg);
+    background-image: url(img/friends.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -339,7 +339,7 @@ body {
     height: 80vh;
     width: 85vw;
     margin: 110px auto;
-    background-image: url(/img/question.jpg);
+    background-image: url(img/question.jpg);
     background-position: top;
     background-size: 85vw;
     background-repeat: no-repeat;
@@ -542,7 +542,7 @@ body {
         width: 100vw;
         height: 100vh;
         z-index: -100;
-        background: url(/img/twinkling.png);
+        background: url(img/twinkling.png);
         animation: starTwinkle 20s linear infinite;
     }
 

@@ -37,7 +37,7 @@ Nightbtn.addEventListener('click', function (onclick) {
     Nightbtn.style.display = "None";
     daybtn.style.display = "inline-block";
     daybtn.style.borderColor = "blue";
-    body.style.background = "black url(/img/stars.png) "
+    body.style.background = "black url(img/stars.png) "
     clouds[0].style.display = "none"
     Footer[0].style.color = "white"
     twinkle.style.display = "block"
