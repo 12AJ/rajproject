@@ -658,10 +658,9 @@ body {
     #cloud6,
     #cloud7 {
         width: 50vw;
-        Overflow-x: hidden;
     }  
     #cloud7 {
-    top: 339vh;
+   display: none;
     } 
     .twinkle {
         animation: starTwinkle 10s linear infinite;
