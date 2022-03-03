@@ -492,7 +492,7 @@ body {
         animation: oddclouds 35s linear 0s infinite;
     }
     #cloud2 {
-        left: 69vw;
+        left: 50vw;
         top: 65vh;
         z-index: -10;
         animation: evenclouds 35s linear 0s infinite;
@@ -504,7 +504,7 @@ body {
         animation: oddclouds 35s linear 0s infinite;
     }
     #cloud4 {
-        left: 69vw;
+        left: 50vw;
         top: 185vh;
         z-index: -10;
         animation: evenclouds 35s linear 0s infinite;
@@ -517,7 +517,7 @@ body {
     }
     #cloud6 {
         z-index: -10;
-        left: 69vw;
+        left: 50vw;
         top: 295vh;
         animation: evenclouds 35s linear 0s infinite;
     }
@@ -657,7 +657,7 @@ body {
     #cloud5,
     #cloud6,
     #cloud7 {
-        width: 50vw;
+        width: 40vw;
     }  
     #cloud7 {
    display: none;
