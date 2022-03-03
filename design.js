@@ -55,7 +55,7 @@ daybtn.addEventListener('click', function (onclick) {
     daybtn.style.display = "None";
     Nightbtn.style.display = "inline-block";
     clouds[0].style.display = "inline-block"
-    clouds[0].style.overflowx = "hidden"
+    body.style.overflowx = "hidden"
     Footer[0].style.color = "black"
     twinkle.style.display = "none"
     nav.style.background = "transparent"
