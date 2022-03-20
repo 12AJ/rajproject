@@ -66,3 +66,24 @@ daybtn.addEventListener('click', function (onclick) {
 
 });
 
+//***************************************DropDown List********************** */
+
+let dropListBtn = document.getElementById('dropListBtn');
+let upListBtn = document.getElementById('upListBtn');
+let dropList = document.getElementById('dropList')
+let dropListBg = document.getElementById('dropListBg')
+
+dropListBtn.addEventListener('click' , function (onclick){
+    dropList.style.display = "inline-block"
+    dropListBg.style.display = "inline-block"
+    dropListBtn.style.display="none"
+    upListBtn.style.display="inline-block"
+})
+
+upListBtn.addEventListener('click' , function (onclick){
+    dropList.style.display = "none"
+    dropListBg.style.display = "none"
+    dropListBtn.style.display="inline-block"
+    upListBtn.style.display="none"
+})
+
