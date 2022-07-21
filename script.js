@@ -5,7 +5,7 @@
 
 let loader = document.getElementsByClassName("loaderSpinner");
 
-document.addEventListener("load", function () {
+window.addEventListener("load", function () {
     loader[0].style.display="none"
 });
 
