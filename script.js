@@ -6,7 +6,7 @@
 let loader = document.getElementsByClassName("loaderSpinner");
 
 document.addEventListener("DOMContentLoaded", function () {
-    loader.style.display="none"
+    loader[0].style.display="none"
 });
 
 //******************Animation*******************
