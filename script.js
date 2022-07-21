@@ -1,6 +1,14 @@
 
 // **************************************************searchbutton*******************************************************
 
+
+
+let loader = document.getElementsByClassName("loaderSpinner");
+
+window.addEventListener("load", function () {
+    loader[0].style.display="none"
+});
+
 //******************Animation*******************
 
 let searchbtn = document.getElementById("searchbtn");
